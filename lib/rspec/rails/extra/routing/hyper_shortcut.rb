@@ -1,0 +1,7 @@
+require "rspec/rails/extra/routing/hyper_shortcut/behavior"
+require "rspec/rails/extra/routing/hyper_shortcut/matcher_placeholder"
+require "rspec/rails/extra/routing/hyper_shortcut/request_pair"
+require "rspec/rails/extra/routing/hyper_shortcut/shortcut_elements"
+require "rspec/rails/extra/routing/hyper_shortcut/subject_placeholder"
+require "rspec/rails/extra/routing/hyper_shortcut/additional_methods"
+require "rspec/rails/extra/routing/hyper_shortcut/routing_example_group"
