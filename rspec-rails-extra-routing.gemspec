@@ -5,29 +5,47 @@
 
 Gem::Specification.new do |s|
   s.name = %q{rspec-rails-extra-routing}
-  s.version = "0.0.5"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Hugo Roque (a.k.a HugoLnx)"]
   s.date = %q{2011-04-05}
   s.description = %q{Extension to rspec-rails that allows some shortcuts in routing tests.
+
 With it, this:
+
   describe "users routes" do
+
     describe "GET /" do
+
       it{{:get => '/'}.should route_to "users#index"}
+
     end
 
+
+
     describe "POST /" do
+
       it{{:post => '/'}.should be_routable}
+
     end
+
   end
+
+
 
 can be written like this:
 
+
+
   describe "users routes" do
+
     get('/').should route_to "users#index"
+
     post('/').should be_routable
+
   end
+
 }
   s.email = %q{hugo.roque@caelum.com.br}
   s.extra_rdoc_files = [
@@ -68,20 +86,20 @@ can be written like this:
       s.add_development_dependency(%q<shoulda>, [">= 0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.5.2"])
-      s.add_development_dependency(%q<rcov>, ["= 0.9.9"])
+      s.add_development_dependency(%q<rcov>, [">= 0"])
       s.add_runtime_dependency(%q<rspec-rails>, [">= 2.5.0"])
     else
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
-      s.add_dependency(%q<rcov>, ["= 0.9.9"])
+      s.add_dependency(%q<rcov>, [">= 0"])
       s.add_dependency(%q<rspec-rails>, [">= 2.5.0"])
     end
   else
     s.add_dependency(%q<shoulda>, [">= 0"])
     s.add_dependency(%q<bundler>, ["~> 1.0.0"])
     s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
-    s.add_dependency(%q<rcov>, ["= 0.9.9"])
+    s.add_dependency(%q<rcov>, [">= 0"])
     s.add_dependency(%q<rspec-rails>, [">= 2.5.0"])
   end
 end
