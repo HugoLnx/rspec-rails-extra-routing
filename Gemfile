@@ -46,8 +46,14 @@ group :test do
   gem "arel",  :git => "git://github.com/rails/arel.git", :branch => "2-0-stable"
   gem "rack",  :git => "git://github.com/rack/rack.git"
 end
-gem "shoulda", ">= 0"
-gem "bundler", "~> 1.0.0"
-gem "jeweler", "~> 1.5.2"
-gem "rcov", "0.9.9"
+
+group :development do
+  gem "shoulda", ">= 0"
+  gem "bundler", "~> 1.0.0"
+  gem "jeweler", "~> 1.5.2"
+end
+
+group :development, :test do
+  gem "rcov", "0.9.9"
+end
   #gem "rcov", ">= 0"
