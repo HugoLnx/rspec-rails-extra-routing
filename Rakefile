@@ -28,7 +28,7 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.version = "0.0.1"
+  gem.version = "0.0.2"
   gem.name = "rspec-rails-extra-routing"
   gem.homepage = "http://github.com/HugoLnx/rspec-rails-extra-routing"
   gem.license = "MIT"
