@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{rspec-rails-extra-routing}
-  s.version = "0.0.3"
+  s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Hugo Roque (a.k.a HugoLnx)"]
@@ -58,9 +58,7 @@ can be written like this:
     "spec/hyper_shortcut/request_pair_spec.rb",
     "spec/hyper_shortcut/shortcut_elements_spec.rb",
     "spec/hyper_shortcut/subject_placeholder_spec.rb",
-    "spec/spec_helper.rb",
-    "test/helper.rb",
-    "test/test_rspec-rails-routing-plus.rb"
+    "spec/spec_helper.rb"
   ]
 
   if s.respond_to? :specification_version then
