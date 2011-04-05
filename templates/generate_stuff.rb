@@ -3,7 +3,7 @@ generate('rspec:install')
 lines = File.readlines("./spec/spec_helper.rb")
 lines.each_with_index do |line,i|
   if line.include?("require") && line.match(%r{('|")rspec/rails('|")})
-    lines.insert(i+1,%q{require "../../lib/rspec/rails/extra/routing"})
+    lines.insert(i+1,%q{require "rspec/rails/extra/routing"})
     break
   end
 end

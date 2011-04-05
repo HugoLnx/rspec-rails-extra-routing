@@ -54,6 +54,6 @@ group :development do
 end
 
 group :development, :test do
-  gem "rcov", "0.9.9"
+  gem "rcov"
 end
   #gem "rcov", ">= 0"
