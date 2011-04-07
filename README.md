@@ -26,6 +26,10 @@ This aims to routing tests became focused and consequently clean. The pull reque
 Exists just this unique feature for now.
 
 ## How use
+Install the gem:
+
+    gem install rspec-rails-extra-routing
+
 Load the gem in Gemfile:
 
     # Gemfile
