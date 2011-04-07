@@ -1,11 +1,14 @@
 # RSpec Rails Extra Routing `v0.1.0`
 
-## Description `Some New Stuff for Routing Tests in RSpec Rails`
-This gem has been created just to put some features there I like to use in RSpec Rails until my pull request is accepted and a new version is released, or forever ( if this don't happens ).
+## Description
+I've implement this gem to code some ideas of mine about how should be the rspec-route DSL.  
+Maybe some of this ideas makes sense for others developers, and can be joined to the rspec-rails in the future.  
+For now, is there only one feature 100% finished, but soon enough will be others.  
+Any feed back is welcomed.  
 
 ## Features
-### Hyper Shortcuts [`Pull Request`](https://github.com/rspec/rspec-rails/pull/346)
-  This feature allows shortcuts to the old routing test describe structure:
+### Hyper Shortcuts [`Pull Request discussion`](https://github.com/rspec/rspec-rails/pull/346)
+This feature object is to simplify and DRY(Don't Repeat Yourself) the way you write your route test.  
 
     # Old Way
     describe "GET /" do
@@ -20,10 +23,6 @@ This gem has been created just to put some features there I like to use in RSpec
       :controller => "users",
       :action => "index"
     )
-
-This aims to routing tests became focused and consequently clean. The pull request of this feature in rspec-rails is open, give your opnion.
-
-Exists just this unique feature for now.
 
 ## How use
 Install the gem:
