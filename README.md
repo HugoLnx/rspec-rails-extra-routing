@@ -1,7 +1,7 @@
 # RSpec Rails Extra Routing `v0.1.0`
 
 ## Description `Some New Stuff for Routing Tests in RSpec Rails`
-This gem has been created to just put some features there I like to use in RSpec Rails until my pull request is accepted and a new version is released, or forever ( if this don't happens ).
+This gem has been created just to put some features there I like to use in RSpec Rails until my pull request is accepted and a new version is released, or forever ( if this don't happens ).
 
 ## Features
 ### Hyper Shortcuts [`Pull Request`](https://github.com/rspec/rspec-rails/pull/346)
